@@ -6,7 +6,10 @@ contract MyContract {
 
 string public ourString = "Hello World!";
 
-function changeString (string memory _updateString) public {
-    ourString = _updateString;
-    }
+function compareStrings (string memory _newString) public view returns (bool ){
+    
+return keccak256(abi.encodePacked(_newString)) == keccak256(abi.encodePacked(ourString));
+
+}
+
 }
