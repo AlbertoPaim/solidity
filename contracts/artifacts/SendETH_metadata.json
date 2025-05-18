@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "sendTo",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/sampleContract.sol": "SendETH"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/sampleContract.sol": {
+			"keccak256": "0x72ccf1396ebd67494fac2faf8bd943575ec30eca161ea6088577734186bb1d57",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b79c3d6b3ee4387205c42c132c1cf84bf26d2d8b952cc79cfa499a133df8659b",
+				"dweb:/ipfs/QmNSyctxnbBDFZEs1xW8KixC7KPwDNHmSJmND1PTR2eAXG"
+			]
+		}
+	},
+	"version": 1
+}
